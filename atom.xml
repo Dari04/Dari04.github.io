@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://dari04.github.io/atom.xml" rel="self"/>
   <link href="http://dari04.github.io/"/>
-  <updated>2016-04-07T03:00:25+00:00</updated>
+  <updated>2016-04-07T03:17:07+00:00</updated>
   <id>http://dari04.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dari Y Bamba]]></title>
+    <link href="http://dari04.github.io/blog/2016/04/07/dari-y-bamba/"/>
+    <updated>2016-04-07T03:15:43+00:00</updated>
+    <id>http://dari04.github.io/blog/2016/04/07/dari-y-bamba</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Clase De GITHUB]]></title>
+    <link href="http://dari04.github.io/blog/2016/04/07/clase-de-github/"/>
+    <updated>2016-04-07T03:08:25+00:00</updated>
+    <id>http://dari04.github.io/blog/2016/04/07/clase-de-github</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
