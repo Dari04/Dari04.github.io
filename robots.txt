@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://dari04.github.io/sitemap.xml 
