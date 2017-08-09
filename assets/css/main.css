@@ -734,7 +734,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 #project-preview{
 	display:none;
     position: relative;
-    max-width: 700px;
+    max-width: 630px;
     margin:50px auto 0;
     font-weight: 400;
 	opacity:0;
@@ -751,6 +751,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     text-transform: uppercase;
     letter-spacing: 0.02em;
     word-spacing: 0.15em;
+    font-size: 1.98em;
 }
 
 #project-preview p{
@@ -767,7 +768,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 #project-slider{
-    min-height:400px;
+    min-height:360px;
 }
 
 #project-slider.flexslider {
@@ -799,7 +800,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 ------------------------*/
 
 #contact{
-    background-image: url("../images/fondogris2.jpg");
+    background:#f7f7f7;
     text-align: center;
     position: relative;
     background-position:0 100%;
@@ -812,8 +813,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 ------------------------*/
 
 #main-footer{
-    padding-top:50px;
-    padding-bottom:40px;
+    padding-top: 33px;
+    padding-bottom: 20px;
     background: #2b5169;
 }
 
@@ -1025,7 +1026,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     }
     
     .project-item .hover-mask .project-title {
-        margin-top:75px;
+        margin-top:39px;
     }
     
     #project-slider{
@@ -1191,7 +1192,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     }
     
     .project-item .hover-mask .project-title {
-        margin-top:70px;
+        margin-top:39px;
     }
 } 
 .font-k{
@@ -1199,7 +1200,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 /*Book*/
 #about{
-    background-image: url("../images/fondogris2.jpg");
+    background:#f7f7f7;
       background-attachment: fixed;
       text-align: center;
       position: relative;
@@ -1231,7 +1232,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 
 #skills {
-  background-image: url("../images/fondogris2.jpg");
+background:#f7f7f7;
   background-attachment: fixed;
   text-align: center;
   position: relative; }
@@ -1327,23 +1328,15 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
   margin: 0px 50px 0px 50px; }
   
 
-#about::before {
-    border-bottom: 100px solid #eeeeee;
+#about::before,
+#skills::before,
+#contact::before {
+    border-bottom: 100px solid #f7f7f7;
     border-right: 170vw solid transparent;
     top: -98px;
 }
 #curriculum::before {
     border-bottom: 100px solid #ff8d84;
-    border-right: 170vw solid transparent;
-    top: -98px;
-}
-#contact::before {
-    border-bottom: 100px solid #eeeeee;
-    border-right: 170vw solid transparent;
-    top: -98px;
-}
-#skills::before {
-    border-bottom: 100px solid #eeeeee;
     border-right: 170vw solid transparent;
     top: -98px;
 }
@@ -1410,10 +1403,12 @@ i.ion-android-mail, .ion-android-phone-portrait {
     background:#2b5169; }
   #social ul li .ion-social-facebook {
     background: #3b5998; }
-  #social ul li .ion-social-googleplus {
-    background: #DC4A38; }
+  #social ul li .ion-social-twitter {
+    background: #1da1f2; }
   #social ul li .ion-social-linkedin {
     background: #1060A6; }
+  #social ul li .ion-android-mail {
+    background: #DC4A38; }
 p.text-center a.btn.btn-color1{
     background: #2b5169;
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
