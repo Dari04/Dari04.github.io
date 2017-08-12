@@ -1184,6 +1184,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 }  
 
+@media screen and (min-width: 300px) and (max-width: 737px) {
+    #page-loader .page-loader-gif {
+        margin: -44px -11px 0 -11px;
+        left: 39%;
+    }
+}
+
 @media (max-width:479px){
     
     #projects-container .project-item{
