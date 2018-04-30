@@ -218,7 +218,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     height: 100%;
     position: absolute;
     top:50%;
+<<<<<<< HEAD
     left:47%;
+=======
+    left:50%;
+>>>>>>> 95feee7e5d629ec336e262b9208f1b58a72bda30
     margin:-32px 0 0 -32px;
     background: url('../images/preloader.gif') no-repeat;
     overflow: hidden;
