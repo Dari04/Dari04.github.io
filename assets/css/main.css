@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .section-title{
     margin-top:-20px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     text-align:center;
 }
 #contact .section-title {
@@ -444,7 +444,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
     .polaroid {
     max-width: 85%;
-    border: 4px solid #6d6d6d;
+    margin: auto;
+    width: 68%;
     }
 
 /*-----------------------
@@ -1037,6 +1038,14 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     #main-nav .navbar-brand {
         font-size: 1.2em;
     }
+
+    #video {
+        padding-top: 33%!important;
+    }
+    video{
+        width: 100%!important;
+        height:100%!important;
+    }
 }
 @media (max-width:767px){
 
@@ -1045,8 +1054,18 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     }
     .navbar-collapse{
         border-top: 1px solid rgba(255, 255, 255, 0.14)!important;
-  }
-    
+     }
+
+    #video {
+        padding-top: 33%!important;
+    }
+    video{
+        width: 100%!important;
+        height:100%!important;
+    }
+    .file-png{
+        width: 100%!important;
+    }
     .lead{
       font-size:16px;
       font-weight:600;
@@ -1136,10 +1155,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     }
     
     .polaroid {
-        width:90%;
+        width:95%;
         max-width: 500px;
         margin:0 auto 35px;
-        border: 4px solid #6d6d6d;
     }
     
     .percent{
@@ -1201,9 +1219,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     .project-item .hover-mask .project-title {
         margin-top:39px;
     }
-    .button-cv {
-        font-size: 1.1em!important;
-    }
     #filter-works ul li a {
         display: block;
         padding: 10px 7px;
@@ -1228,7 +1243,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     position: relative;
 }
 .file-png{
-    width: 70%;
+    width: 40%;
     margin: auto;
     display: block;
 }
@@ -1236,10 +1251,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .button-cv{
     color: #2b5169;
     font-size: 1.4em;
-    border-radius: 94px;
     border: 3px solid #2b5169;
     margin: 2px auto;
-    width: 68%;
+    width: 28%;
     text-align: center;
     font-weight: 600;
     padding: 5px 0px 0px 0px;
@@ -1267,54 +1281,63 @@ background:#ffffff;
   .efecto .progresed {
     opacity: 0;
     transition: opacity 0.2s linear, margin 0.2s linear;
-    font-family: Georgia, serif;
+    font-family: "Nunito", serif;
     font-style: italic;
     color: #ff8d84;
     margin-top: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 55px;
     position: relative;
     height: 2em;
     width: 100%;
     background-color: white;
     padding-top: 6px;
-    border-radius: 24px;
-    border: 1px solid rgba(0, 188, 212, 0.16); }
+    border-radius: 24px;}
   .efecto:hover {
     cursor: pointer; }
     .efecto:hover .progresed {
       opacity: 1;
       margin-top: 20px;
       margin-bottom: 10px; }
+.bg-square-icon{
+     background-color: white;
+    padding: 13px 28px;
+    display: inline-block;
+    margin-top: -37px;
+    border: 4px solid #ff8d84;
+    transform: rotate(46deg);
+}
+
+.i-icon{
+        transform: rotate(-46deg);
+}
   .efecto i {
     font-size: 3em;
     color: #ff8d84;
-    background: white;
-    padding: 23px 35px;
-    border-radius: 100%;
-    border: 9px solid #ff8d84; }
+    background: white; }
     .efecto i:hover {
       background-image: url("../../img/textura.jpg");
       background-color: #ffffff;
       color: #ff8d84;
-      transition: 0.4s;
-      border: 9px solid #ff8d84; }
+      transition: 0.4s; }
     .efecto i.ion-social-sass{
         font-size: 2.8em;
     }
   .efecto .letter {
     margin-top: 0px; }
 
-.bg-circle {
-  border-radius: 100%;
-  background-color: white;
-  padding: 29px 34px 33px 35px;
-  display: inline-block;
-  margin-top: -34px;
-  border: 9px solid #ff8d84; }
-  .bg-circle:hover {
+.bg-square {
+    background-color: white;
+    padding: 26px;
+    display: inline-block;
+    margin-top: -37px;
+    border: 4px solid #ff8d84;
+    transform: rotate(46deg); }
+  .bg-square:hover {
     background-image: url("../../img/textura.jpg");
     transition: 0.4s; }
-
+.deg46{
+    transform: rotate(-46deg); 
+}
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -1430,4 +1453,20 @@ p.text-center a.btn.btn-color1{
     background: #2b5169;
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
 
+}
+
+/*-----------------------
+--- Video Styles ----
+-------------------------*/
+
+#video{
+    position: relative;
+    padding-top: 12%;
+}
+
+video{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 80%;
 }
