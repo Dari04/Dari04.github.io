@@ -1062,6 +1062,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     video{
         width: 100%!important;
         height:100%!important;
+        margin-bottom: 28%!important;
     }
     .file-png{
         width: 100%!important;
@@ -1209,6 +1210,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     #page-loader .page-loader-gif {
         margin: -44px -11px 0 -11px;
         left: 39%;
+    }
+    video{
+        width: 100%!important;
+        height:100%!important;
+        margin-bottom: 20%!important;
     }
 }
 
@@ -1470,6 +1476,6 @@ p.text-center a.btn.btn-color1{
 video{
     margin: auto;
     display: block;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
 }
