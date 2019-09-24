@@ -30,7 +30,9 @@ body {
     line-height: 170%;
     background-color: #030303;
 }
-
+.division-menu{
+    cursor: default!important;
+}
 .layout-fixed {
     padding-right: 17px;
 }
@@ -908,7 +910,7 @@ header {
    10. HABILITIES WRAPPER
 ========================================================================== */
 
-.habilities_wrapper{
+.skills_wrapper{
     background-color:  #030303;
     padding: 100px 0;
     color: #fff;
