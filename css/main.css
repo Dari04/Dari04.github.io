@@ -782,9 +782,12 @@ header {
     -ms-transition: .3s;
     -o-transition: .3s;
 }
+.modal {
+    background: rgba(0, 0, 0, 0.6);
+}
 .work-popup .modal-content{
     background-color: #111!important;
-    padding: 20px 30px;
+    padding: 20px;
 }
 
 .work-popup .modal-content .close{
@@ -798,8 +801,8 @@ header {
 
 .work-popup {
     width: auto;
-    max-width: 710px;
-    margin: 5em auto;
+    max-width: 1000px;
+    margin: 2em auto;
     transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -1237,8 +1240,8 @@ footer p span {
     text-align: center;
     line-height: 30px;
     margin-top: 5px;
-    padding: 8px 11px
-}
+    padding: 8px 11px;
+    transition: 1s all ease;}
 .chat_circle img{
     max-width: 100%;
 }
