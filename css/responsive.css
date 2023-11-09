@@ -150,7 +150,7 @@
     }
     .showMob {
         display: flex!important;
-        font-size: 25px;
+        font-size: 24px;
     }
     .showMob .nav-link {
         padding: 0;
@@ -167,6 +167,9 @@
     .home_wrapper .landing_content .container,
     .home_wrapper .landing_content .container .row, .landing_wrapper  {
         height: 50vh!important;
+    }
+    .portfolio_slideshow, .portfolio_home_wrapper {
+        height: 85px!important;
     }
     .about_info h4 {
         margin-top: 50px;
