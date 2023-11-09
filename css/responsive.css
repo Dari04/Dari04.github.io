@@ -151,7 +151,6 @@
     .showMob {
         display: flex!important;
         font-size: 25px;
-        justify-content: flex-end;
     }
     .showMob .nav-link {
         padding: 0;
