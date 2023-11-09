@@ -149,7 +149,6 @@
         display: none!important;
     }
     .showMob {
-        padding: 0px 68px;
         display: flex!important;
         font-size: 25px;
         justify-content: flex-end;
