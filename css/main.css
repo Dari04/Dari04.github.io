@@ -204,7 +204,7 @@ header {
 }
 
 .header_bg {
-    background-color: #222329;
+    background-color: #fff;
 }
 
 .logo a {
@@ -1259,3 +1259,6 @@ footer p span {
     100% { opacity: 1; }
   }
 
+.showMob{
+    display: none;
+}
