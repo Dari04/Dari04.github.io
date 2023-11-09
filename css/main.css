@@ -423,6 +423,7 @@ header {
 	margin: auto 0px;
     animation: change-bg 14s cubic-bezier(0.4, 0, 1, 1) forwards infinite;
     background-size: contain;
+    background-repeat: no-repeat;
 
 }
 @keyframes change-bg {
@@ -1232,32 +1233,7 @@ footer p span {
     top: -2px;
 }
 
-@media (max-width: 480px) {
-    .btn-share {
-        width: 100%;
-        display: block
-    }
 
-    .chat_circle {
-        height: auto!important;
-        width: 100%!important;
-        border-radius: 0!important;
-        line-height: 1.5!important;
-        padding: 3px 15px!important
-    }
-
-    .box-chats {
-        padding: 0!important;
-        bottom: -1.2%!important;
-        display: inline-flex!important;
-        right: 0!important
-    }
-
-    .contact-icon_mob {
-        width: 22%
-    }
-
-}
 .portfolio_slideshow, .portfolio_home_wrapper{
     height: 85px!important;
 }
