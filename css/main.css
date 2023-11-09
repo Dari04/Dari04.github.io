@@ -1188,6 +1188,9 @@ footer p span {
     border-radius: 50px;
     padding: 16px 2px;
 }
+.chat_circle.linkedin img {
+    width: 85%;
+}
 .resume {
     background-color: #516CF7;
 }
