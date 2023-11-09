@@ -1183,12 +1183,24 @@ footer p span {
 .chat_circle img{
     max-width: 100%;
 }
-.messenger {
-    background-color: #0084ff;
+.chat_circle.resume {
+    height: fit-content;
+    border-radius: 50px;
+    padding: 16px 2px;
+}
+.resume {
+    background-color: #516CF7;
 }
 
-.messenger:hover {
-    background-color: #1530ff;
+.resume:hover {
+    background-color: #9251f7;
+}
+.linkedin {
+    background-color: #1766c2;
+}
+
+.linkedin:hover {
+    background-color: #0951a4;
 }
 
 .whatsapp {
