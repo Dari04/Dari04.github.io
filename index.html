@@ -78,7 +78,10 @@
                             </li>
                             <li class="nav-item hideMob">
                                     <a class="nav-link slide-vertical text-center" data-splitting href="index_es.html">ES</a>
+                                    <div id='google_translate_element'>sasas</div>
                             </li>
+                            
+
                         </ul>
                         <!-- responsive menu btn -->
                         <li class="nav-item showMob">
@@ -1114,6 +1117,17 @@
   <!-- Finish Project 16-->
 
     <!-- ========  All JS Here ========  -->
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          autoDisplay: 'true',
+          includedLanguages:'en,es', 
+          layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+          }, 'google_translate_element');
+        }
+    </script>
+    <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/plugins.js"></script>
     <!-- vejas.min.js (only for index-3.html page) -->
