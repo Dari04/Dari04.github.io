@@ -1264,3 +1264,15 @@ footer p span {
     display: none;
 }
 
+#google_translate_element .goog-te-gadget > *:not(div) {
+    display: none;
+}
+
+.goog-te-gadget {
+    font-size: 0px!important;
+    color: transparent!important;
+}
+
+.goog-te-gadget .goog-te-combo {
+    margin: 0;
+}
