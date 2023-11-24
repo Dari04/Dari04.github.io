@@ -1268,7 +1268,7 @@ footer p span {
     display: none;
 }
 
-.goog-te-gadget {
+.goog-te-gadget *:not(selector) {
     font-size: 0px!important;
     color: transparent!important;
 }
