@@ -183,7 +183,6 @@ li {
 
 header {
     height: 85px;
-    line-height: 85px;
     width: 100%;
     position: fixed;
     transition: background .3s;
@@ -193,6 +192,8 @@ header {
     -o-transition: background .3s;
     z-index: 1000;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .layout-fixed header {
@@ -1262,3 +1263,4 @@ footer p span {
 .showMob{
     display: none;
 }
+
