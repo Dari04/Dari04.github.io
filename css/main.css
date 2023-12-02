@@ -127,12 +127,19 @@ li {
     color: #2E2E48;
     margin-bottom: 24px;
 }
-
-
+.buttonsboxgroup{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.button.bg-secondary{
+    background-color: #2E2E48!important;
+}
 .button {
     padding: 8px 25px 0 25px;
     background-color: #516CF7;
-    margin-top: 30px;
+    margin-top: 16px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -596,6 +603,7 @@ header {
     border-radius: 8px;
 }
 .work_single_item > .img-fluid {
+    height: 170px;
     max-height: 170px;
     object-fit: cover;
     width: 100%;
@@ -625,6 +633,7 @@ header {
     margin-bottom: 30px;
     text-align: center;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .work_info {
@@ -658,16 +667,12 @@ header {
     border-radius: 8px;
 }
 
-.work_info button:hover {
-    color: #2E2E48!important;
-}
-
 .work_info button::after {
     position: absolute;
     content: "";
     height: 100%;
     width: 0;
-    background-color: #F6F9FC;
+    background-color: #516CF7;
     top: 0;
     right: 0;
     transition: .3s;
@@ -679,7 +684,7 @@ header {
     border-radius: 6px;
 }
 
-.work_info button:Hover::after {
+.work_single_item:hover .work_info button::after {
     right: auto;
     left: 0;
     width: 100%;
@@ -763,7 +768,7 @@ header {
 
 
 .work-popup .work-info h4 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     color: #2E2E48;
 }
