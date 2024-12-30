@@ -437,8 +437,8 @@ header {
 @keyframes change-bg {
     0%, 100%  { background-image: url(https://dari04.github.io/img/about_photo_1.svg); }
     25% { background-image: url(https://dari04.github.io/img/about_photo_1.svg); }
-    50% { background-image: url(https://dari04.github.io/img/about_photo_2.svg); }
-    80% { background-image: url(https://dari04.github.io/img/about_photo_2.svg); }
+    50% { background-image: url(https://dari04.github.io/img/about_photo_1.svg); }
+    80% { background-image: url(https://dari04.github.io/img/about_photo_1.svg); }
   }
 
 .about_info .social_links {
